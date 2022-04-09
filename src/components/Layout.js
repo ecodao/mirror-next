@@ -37,7 +37,28 @@ const Layout = ({ publication, children }) => {
 									</div>
 								</a>
 							</Link>
+							<span className="p-3">
+								<a href="/calendar">
+								calendar
+								</a>
+							</span> 
+							<span className="p-3">
+								<a href="/workstreams">
+								workstreams
+								</a>
+							</span> 
+							<span className="p-3">
+								<a href="https://dune.xyz/canin/ecodao" target="_blank">
+								dashboard
+								</a>
+							</span> 
+							<span className="p-3">
+								<a href="/contact">
+								contact
+								</a>
+							</span>
 						</header>
+
 						<main className="max-w-3xl mx-auto py-16 px-4 sm:px-0">{children}</main>
 					</div>
 				</div>
